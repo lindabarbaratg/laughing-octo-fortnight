@@ -21,7 +21,6 @@ jobs:
           python -m pip install --upgrade pip wheel setuptools
           python -m pip install selenium
           python -m pip install supabase
-          pip install tmdbv3api
           sudo apt install -y google-chrome-stable
           sudo apt install -y xvfb
           export DISPLAY=:0
